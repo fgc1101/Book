@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "path": "pages/Setting/Setting",
+      "path": "pages/Home/Home",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
@@ -14,9 +14,8 @@
         "enablePullDownRefresh": false
       }
     },
-
     {
-      "path": "pages/Home/Home",
+      "path": "pages/Setting/Setting",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false

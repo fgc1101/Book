@@ -1,21 +1,22 @@
 {
   "pages": [
     {
+      "path" : "pages/Test/Test",
+      "style" :
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
       "path": "pages/Home/Home",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
     },
-	  {
-	        "path" : "pages/Test/Test",
-	        "style" :                                                                                    
-	        {
-	            "navigationBarTitleText": "",
-	            "enablePullDownRefresh": false
-	        }
-	        
-	    },
+
 
     {
       "path": "pages/My/My",

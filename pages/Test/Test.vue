@@ -1,11 +1,11 @@
 <template>
 	<view>
-    <CateList></CateList>
+    <BookList></BookList>
 	</view>
 </template>
 
 <script>
-import CateList from "@/components/common/CateList";
+import BookList from "@/components/common/BookList";
 	export default {
 		data() {
 			return {
@@ -16,7 +16,7 @@ import CateList from "@/components/common/CateList";
 			
 		},
     components:{
-      CateList
+      BookList
     }
 	}
 </script>

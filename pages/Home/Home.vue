@@ -91,6 +91,7 @@ export default {
 .icon {
   font-size: 24px;
   color: #fff;
+  font-weight: bold;
 }
 
 .search {

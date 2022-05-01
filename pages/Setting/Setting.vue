@@ -94,6 +94,12 @@
       bottom: 0;
       width: 100%;
       height: 70px;
+
+      text{
+        font-size: 22px;
+        color: #dcdeea;
+        font-family: "PingFang SC";
+      }
     }
   }
 </style>

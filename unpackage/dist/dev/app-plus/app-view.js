@@ -1129,7 +1129,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".container .header[data-v-7cd3e2b8] {\n  padding: 0 24px;\n  display: flex;\n  height: 26px;\n  justify-content: space-between;\n  align-items: center;\n}\n.container .header uni-text[data-v-7cd3e2b8] {\n  font-size: 22px;\n  font-weight: bold;\n  color: #FFFFFF;\n}\n.container .logout_box[data-v-7cd3e2b8] {\n  background-color: #2e363f;\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  bottom: 0;\n  width: 100%;\n  height: 70px;\n}\n", ""]);
+exports.push([module.i, ".container .header[data-v-7cd3e2b8] {\n  padding: 0 24px;\n  display: flex;\n  height: 26px;\n  justify-content: space-between;\n  align-items: center;\n}\n.container .header uni-text[data-v-7cd3e2b8] {\n  font-size: 22px;\n  font-weight: bold;\n  color: #FFFFFF;\n}\n.container .logout_box[data-v-7cd3e2b8] {\n  background-color: #2e363f;\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  bottom: 0;\n  width: 100%;\n  height: 70px;\n}\n.container .logout_box uni-text[data-v-7cd3e2b8] {\n  font-size: 22px;\n  color: #dcdeea;\n  font-family: \"PingFang SC\";\n}\n", ""]);
 // Exports
 module.exports = exports;
 

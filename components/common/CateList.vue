@@ -6,7 +6,7 @@
     </view>
 
     <view class="c-list uni-padding-wrap uni-common-mt">
-      <scroll-view  class="scroll-view" scroll-x="true">
+      <scroll-view  class="scroll-view" scroll-x="true" show-scrollbar="false">
         <view v-for="(item, index) in cate_list" class="scroll-view-item">
             <view class="item">
               <image :src="item.src_url"></image>
@@ -61,7 +61,6 @@ export default {
 <style lang="less" scoped>
   .container{
     padding: 0 24px;
-
 
     .title{
       display: flex;

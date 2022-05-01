@@ -50,6 +50,7 @@ export default {
 <style lang="less" scoped>
   .container{
     padding: 0 24px;
+    
     .title{
       display: flex;
       justify-content: space-between;
@@ -68,14 +69,18 @@ export default {
     }
 
     .list{
+      width: 100%;
+      // background-color: #fff;
       display: flex;
-      flex-direction: row;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       flex-wrap:wrap;
+      padding-bottom: 44px;
+      border-bottom: 1px solid #69707f;
+      margin-bottom: 34px;
 
       .list-item{
-        margin: 10px;
+        margin-top: 10px;
       }
     }
   }

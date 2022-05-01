@@ -17,11 +17,14 @@
 
     <!-- 作者排行 -->
     <CateList left_text="作者排行 " :cate_list="author_list"></CateList>
+
+    <BookList></BookList>
   </view>
 </template>
 
 <script>
 import CateList from "@/components/common/CateList";
+import BookList from "@/components/common/BookList";
 
 const dom = weex.requireModule("dom");
 dom.addRule("fontFace", {
@@ -70,7 +73,7 @@ export default {
     }
   },
   components: {
-    CateList
+    CateList, BookList
   }
 }
 </script>

@@ -3257,37 +3257,68 @@ var render = function() {
       _c(
         "v-uni-view",
         { staticClass: _vm._$g(1, "sc"), attrs: { _i: 1 } },
-        [_c("BookItem", { attrs: { _i: 2 } })],
-        1
-      ),
-      _c(
-        "v-uni-view",
-        { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
-        [_c("BookItem", { attrs: { _i: 4 } })],
+        [
+          _c(
+            "v-uni-text",
+            { staticClass: _vm._$g(2, "sc"), attrs: { _i: 2 } },
+            [_vm._v(_vm._$g(2, "t0-0"))]
+          ),
+          _c(
+            "v-uni-text",
+            { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
+            [
+              _vm._v("查看全部"),
+              _c("v-uni-text", {
+                staticClass: _vm._$g(4, "sc"),
+                attrs: { _i: 4 }
+              })
+            ],
+            1
+          )
+        ],
         1
       ),
       _c(
         "v-uni-view",
         { staticClass: _vm._$g(5, "sc"), attrs: { _i: 5 } },
-        [_c("BookItem", { attrs: { _i: 6 } })],
-        1
-      ),
-      _c(
-        "v-uni-view",
-        { staticClass: _vm._$g(7, "sc"), attrs: { _i: 7 } },
-        [_c("BookItem", { attrs: { _i: 8 } })],
-        1
-      ),
-      _c(
-        "v-uni-view",
-        { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
-        [_c("BookItem", { attrs: { _i: 10 } })],
-        1
-      ),
-      _c(
-        "v-uni-view",
-        { staticClass: _vm._$g(11, "sc"), attrs: { _i: 11 } },
-        [_c("BookItem", { attrs: { _i: 12 } })],
+        [
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } },
+            [_c("BookItem", { attrs: { _i: 7 } })],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
+            [_c("BookItem", { attrs: { _i: 9 } })],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(10, "sc"), attrs: { _i: 10 } },
+            [_c("BookItem", { attrs: { _i: 11 } })],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(12, "sc"), attrs: { _i: 12 } },
+            [_c("BookItem", { attrs: { _i: 13 } })],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(14, "sc"), attrs: { _i: 14 } },
+            [_c("BookItem", { attrs: { _i: 15 } })],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(16, "sc"), attrs: { _i: 16 } },
+            [_c("BookItem", { attrs: { _i: 17 } })],
+            1
+          )
+        ],
         1
       )
     ],
@@ -3327,7 +3358,7 @@ __webpack_require__.r(__webpack_exports__);
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
 var _BookItem = _interopRequireDefault(__webpack_require__(/*! ./BookItem */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
-  name: "BookList",
+  name: "BookList", props: ["left_text"],
   data: function data() {
     return {
       wxsProps: {} };
@@ -3383,7 +3414,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".container[data-v-5edacd00] {\n  padding: 0 12px;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n}\n.container .list-item[data-v-5edacd00] {\n  margin: 10px;\n}\n", ""]);
+exports.push([module.i, ".container[data-v-5edacd00] {\n  padding: 0 24px;\n}\n.container .title[data-v-5edacd00] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.container .title .left[data-v-5edacd00] {\n  font-size: 18px;\n  color: #fff;\n  font-weight: 600;\n}\n.container .title .right[data-v-5edacd00] {\n  font-size: 13px;\n  color: #a2a8ba;\n}\n.container .list[data-v-5edacd00] {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n}\n.container .list .list-item[data-v-5edacd00] {\n  margin: 10px;\n}\n", ""]);
 // Exports
 module.exports = exports;
 

@@ -1777,96 +1777,115 @@ var render = function() {
     "view",
     { staticClass: _vm._$s(0, "sc", "container"), attrs: { _i: 0 } },
     [
-      _c(
-        "view",
-        { staticClass: _vm._$s(1, "sc", "list-item"), attrs: { _i: 1 } },
-        [
-          _c("BookItem", {
-            attrs: {
-              book_author: "刘慈欣",
-              book_src: "/static/images/common/book1.jpeg",
-              book_title: "三体：死神永生",
-              _i: 2
-            }
-          })
-        ],
-        1
-      ),
-      _c(
-        "view",
-        { staticClass: _vm._$s(3, "sc", "list-item"), attrs: { _i: 3 } },
-        [
-          _c("BookItem", {
-            attrs: {
-              book_author: "刘慈欣",
-              book_src: "/static/images/common/book1.jpeg",
-              book_title: "三体：死神永生",
-              _i: 4
-            }
-          })
-        ],
-        1
-      ),
-      _c(
-        "view",
-        { staticClass: _vm._$s(5, "sc", "list-item"), attrs: { _i: 5 } },
-        [
-          _c("BookItem", {
-            attrs: {
-              book_author: "刘慈欣",
-              book_src: "/static/images/common/book1.jpeg",
-              book_title: "三体：死神永生",
-              _i: 6
-            }
-          })
-        ],
-        1
-      ),
-      _c(
-        "view",
-        { staticClass: _vm._$s(7, "sc", "list-item"), attrs: { _i: 7 } },
-        [
-          _c("BookItem", {
-            attrs: {
-              book_author: "刘慈欣",
-              book_src: "/static/images/common/book1.jpeg",
-              book_title: "三体：死神永生",
-              _i: 8
-            }
-          })
-        ],
-        1
-      ),
-      _c(
-        "view",
-        { staticClass: _vm._$s(9, "sc", "list-item"), attrs: { _i: 9 } },
-        [
-          _c("BookItem", {
-            attrs: {
-              book_author: "刘慈欣",
-              book_src: "/static/images/common/book1.jpeg",
-              book_title: "三体：死神永生",
-              _i: 10
-            }
-          })
-        ],
-        1
-      ),
-      _c(
-        "view",
-        { staticClass: _vm._$s(11, "sc", "list-item"), attrs: { _i: 11 } },
-        [
-          _c("BookItem", {
-            attrs: {
-              book_author: "刘慈欣",
-              book_src: "/static/images/common/book1.jpeg",
-              book_title: "三体：死神永生",
-              _i: 12
-            }
-          })
-        ],
-        1
-      )
+      _c("view", { staticClass: _vm._$s(1, "sc", "title"), attrs: { _i: 1 } }, [
+        _c(
+          "text",
+          { staticClass: _vm._$s(2, "sc", "left"), attrs: { _i: 2 } },
+          [_vm._v(_vm._$s(2, "t0-0", _vm._s(_vm.left_text)))]
+        ),
+        _c(
+          "text",
+          { staticClass: _vm._$s(3, "sc", "right"), attrs: { _i: 3 } },
+          [
+            _c("text", {
+              staticClass: _vm._$s(4, "sc", "icon-right"),
+              attrs: { _i: 4 }
+            })
+          ]
+        )
+      ]),
+      _c("view", { staticClass: _vm._$s(5, "sc", "list"), attrs: { _i: 5 } }, [
+        _c(
+          "view",
+          { staticClass: _vm._$s(6, "sc", "list-item"), attrs: { _i: 6 } },
+          [
+            _c("BookItem", {
+              attrs: {
+                book_author: "刘慈欣",
+                book_src: "/static/images/common/book1.jpeg",
+                book_title: "三体：死神永生",
+                _i: 7
+              }
+            })
+          ],
+          1
+        ),
+        _c(
+          "view",
+          { staticClass: _vm._$s(8, "sc", "list-item"), attrs: { _i: 8 } },
+          [
+            _c("BookItem", {
+              attrs: {
+                book_author: "刘慈欣",
+                book_src: "/static/images/common/book1.jpeg",
+                book_title: "三体：死神永生",
+                _i: 9
+              }
+            })
+          ],
+          1
+        ),
+        _c(
+          "view",
+          { staticClass: _vm._$s(10, "sc", "list-item"), attrs: { _i: 10 } },
+          [
+            _c("BookItem", {
+              attrs: {
+                book_author: "刘慈欣",
+                book_src: "/static/images/common/book1.jpeg",
+                book_title: "三体：死神永生",
+                _i: 11
+              }
+            })
+          ],
+          1
+        ),
+        _c(
+          "view",
+          { staticClass: _vm._$s(12, "sc", "list-item"), attrs: { _i: 12 } },
+          [
+            _c("BookItem", {
+              attrs: {
+                book_author: "刘慈欣",
+                book_src: "/static/images/common/book1.jpeg",
+                book_title: "三体：死神永生",
+                _i: 13
+              }
+            })
+          ],
+          1
+        ),
+        _c(
+          "view",
+          { staticClass: _vm._$s(14, "sc", "list-item"), attrs: { _i: 14 } },
+          [
+            _c("BookItem", {
+              attrs: {
+                book_author: "刘慈欣",
+                book_src: "/static/images/common/book1.jpeg",
+                book_title: "三体：死神永生",
+                _i: 15
+              }
+            })
+          ],
+          1
+        ),
+        _c(
+          "view",
+          { staticClass: _vm._$s(16, "sc", "list-item"), attrs: { _i: 16 } },
+          [
+            _c("BookItem", {
+              attrs: {
+                book_author: "刘慈欣",
+                book_src: "/static/images/common/book1.jpeg",
+                book_title: "三体：死神永生",
+                _i: 17
+              }
+            })
+          ],
+          1
+        )
+      ])
     ]
   )
 }
@@ -1896,7 +1915,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _App
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _BookItem = _interopRequireDefault(__webpack_require__(/*! ./BookItem */ 13));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nvar _default = { name: \"BookList\", components: { BookItem: _BookItem.default } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vY29tcG9uZW50cy9jb21tb24vQm9va0xpc3QudnVlIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUF5QkEsa0Y7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztlQUNBLEVBQ0EsZ0JBREEsRUFFQSxjQUNBLDJCQURBLEVBRkEsRSIsImZpbGUiOiI2Ny5qcyIsInNvdXJjZXNDb250ZW50IjpbIjx0ZW1wbGF0ZT5cbiAgPHZpZXcgY2xhc3M9XCJjb250YWluZXJcIj5cbiAgICA8dmlldyBjbGFzcz1cImxpc3QtaXRlbVwiPlxuICAgICAgPEJvb2tJdGVtIGJvb2tfYXV0aG9yPVwi5YiY5oWI5qyjXCIgYm9va19zcmM9XCIvc3RhdGljL2ltYWdlcy9jb21tb24vYm9vazEuanBlZ1wiIGJvb2tfdGl0bGU9XCLkuInkvZPvvJrmrbvnpZ7msLjnlJ9cIj48L0Jvb2tJdGVtPlxuICAgIDwvdmlldz5cbiAgICA8dmlldyBjbGFzcz1cImxpc3QtaXRlbVwiPlxuICAgICAgPEJvb2tJdGVtIGJvb2tfYXV0aG9yPVwi5YiY5oWI5qyjXCIgYm9va19zcmM9XCIvc3RhdGljL2ltYWdlcy9jb21tb24vYm9vazEuanBlZ1wiIGJvb2tfdGl0bGU9XCLkuInkvZPvvJrmrbvnpZ7msLjnlJ9cIj48L0Jvb2tJdGVtPlxuICAgIDwvdmlldz5cbiAgICA8dmlldyBjbGFzcz1cImxpc3QtaXRlbVwiPlxuICAgICAgPEJvb2tJdGVtIGJvb2tfYXV0aG9yPVwi5YiY5oWI5qyjXCIgYm9va19zcmM9XCIvc3RhdGljL2ltYWdlcy9jb21tb24vYm9vazEuanBlZ1wiIGJvb2tfdGl0bGU9XCLkuInkvZPvvJrmrbvnpZ7msLjnlJ9cIj48L0Jvb2tJdGVtPlxuICAgIDwvdmlldz5cbiAgICA8dmlldyBjbGFzcz1cImxpc3QtaXRlbVwiPlxuICAgICAgPEJvb2tJdGVtIGJvb2tfYXV0aG9yPVwi5YiY5oWI5qyjXCIgYm9va19zcmM9XCIvc3RhdGljL2ltYWdlcy9jb21tb24vYm9vazEuanBlZ1wiIGJvb2tfdGl0bGU9XCLkuInkvZPvvJrmrbvnpZ7msLjnlJ9cIj48L0Jvb2tJdGVtPlxuICAgIDwvdmlldz5cblxuICAgIDx2aWV3IGNsYXNzPVwibGlzdC1pdGVtXCI+XG4gICAgICA8Qm9va0l0ZW0gYm9va19hdXRob3I9XCLliJjmhYjmrKNcIiBib29rX3NyYz1cIi9zdGF0aWMvaW1hZ2VzL2NvbW1vbi9ib29rMS5qcGVnXCIgYm9va190aXRsZT1cIuS4ieS9k++8muatu+elnuawuOeUn1wiPjwvQm9va0l0ZW0+XG4gICAgPC92aWV3PlxuICAgIDx2aWV3IGNsYXNzPVwibGlzdC1pdGVtXCI+XG4gICAgICA8Qm9va0l0ZW0gYm9va19hdXRob3I9XCLliJjmhYjmrKNcIiBib29rX3NyYz1cIi9zdGF0aWMvaW1hZ2VzL2NvbW1vbi9ib29rMS5qcGVnXCIgYm9va190aXRsZT1cIuS4ieS9k++8muatu+elnuawuOeUn1wiPjwvQm9va0l0ZW0+XG4gICAgPC92aWV3PlxuICA8L3ZpZXc+XG48L3RlbXBsYXRlPlxuXG48c2NyaXB0PlxuaW1wb3J0IEJvb2tJdGVtIGZyb20gXCIuL0Jvb2tJdGVtXCI7XG5leHBvcnQgZGVmYXVsdCB7XG4gIG5hbWU6IFwiQm9va0xpc3RcIixcbiAgY29tcG9uZW50czp7XG4gICAgQm9va0l0ZW1cbiAgfVxufVxuPC9zY3JpcHQ+XG5cbjxzdHlsZSBsYW5nPVwibGVzc1wiIHNjb3BlZD5cbiAgLmNvbnRhaW5lcntcbiAgICBwYWRkaW5nOiAwIDI0cHg7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgZmxleC13cmFwOndyYXA7XG5cbiAgICAubGlzdC1pdGVte1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgICB9XG5cbiAgfVxuPC9zdHlsZT4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///67\n");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _BookItem = _interopRequireDefault(__webpack_require__(/*! ./BookItem */ 13));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nvar _default = { name: \"BookList\", props: { left_text: { type: String, default: \"新发布\" } }, components: { BookItem: _BookItem.default } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vY29tcG9uZW50cy9jb21tb24vQm9va0xpc3QudnVlIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFrQ0Esa0Y7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztlQUNBLEVBQ0EsZ0JBREEsRUFFQSxTQUNBLGFBQ0EsWUFEQSxFQUVBLGNBRkEsRUFEQSxFQUZBLEVBUUEsY0FDQSwyQkFEQSxFQVJBLEUiLCJmaWxlIjoiNjcuanMiLCJzb3VyY2VzQ29udGVudCI6WyI8dGVtcGxhdGU+XG4gIDx2aWV3IGNsYXNzPVwiY29udGFpbmVyXCI+XG5cbiAgICA8dmlldyBjbGFzcz1cInRpdGxlXCI+XG4gICAgICA8dGV4dCBjbGFzcz1cImxlZnRcIj57e2xlZnRfdGV4dH19PC90ZXh0PlxuICAgICAgPHRleHQgY2xhc3M9XCJyaWdodFwiPuafpeeci+WFqOmDqDx0ZXh0IGNsYXNzPVwiaWNvbi1yaWdodFwiPjwvdGV4dD48L3RleHQ+XG4gICAgPC92aWV3PlxuXG4gICAgPHZpZXcgY2xhc3M9XCJsaXN0XCI+XG4gICAgICA8dmlldyBjbGFzcz1cImxpc3QtaXRlbVwiPlxuICAgICAgICA8Qm9va0l0ZW0gYm9va19hdXRob3I9XCLliJjmhYjmrKNcIiBib29rX3NyYz1cIi9zdGF0aWMvaW1hZ2VzL2NvbW1vbi9ib29rMS5qcGVnXCIgYm9va190aXRsZT1cIuS4ieS9k++8muatu+elnuawuOeUn1wiPjwvQm9va0l0ZW0+XG4gICAgICA8L3ZpZXc+XG4gICAgICA8dmlldyBjbGFzcz1cImxpc3QtaXRlbVwiPlxuICAgICAgICA8Qm9va0l0ZW0gYm9va19hdXRob3I9XCLliJjmhYjmrKNcIiBib29rX3NyYz1cIi9zdGF0aWMvaW1hZ2VzL2NvbW1vbi9ib29rMS5qcGVnXCIgYm9va190aXRsZT1cIuS4ieS9k++8muatu+elnuawuOeUn1wiPjwvQm9va0l0ZW0+XG4gICAgICA8L3ZpZXc+XG4gICAgICA8dmlldyBjbGFzcz1cImxpc3QtaXRlbVwiPlxuICAgICAgICA8Qm9va0l0ZW0gYm9va19hdXRob3I9XCLliJjmhYjmrKNcIiBib29rX3NyYz1cIi9zdGF0aWMvaW1hZ2VzL2NvbW1vbi9ib29rMS5qcGVnXCIgYm9va190aXRsZT1cIuS4ieS9k++8muatu+elnuawuOeUn1wiPjwvQm9va0l0ZW0+XG4gICAgICA8L3ZpZXc+XG4gICAgICA8dmlldyBjbGFzcz1cImxpc3QtaXRlbVwiPlxuICAgICAgICA8Qm9va0l0ZW0gYm9va19hdXRob3I9XCLliJjmhYjmrKNcIiBib29rX3NyYz1cIi9zdGF0aWMvaW1hZ2VzL2NvbW1vbi9ib29rMS5qcGVnXCIgYm9va190aXRsZT1cIuS4ieS9k++8muatu+elnuawuOeUn1wiPjwvQm9va0l0ZW0+XG4gICAgICA8L3ZpZXc+XG5cbiAgICAgIDx2aWV3IGNsYXNzPVwibGlzdC1pdGVtXCI+XG4gICAgICAgIDxCb29rSXRlbSBib29rX2F1dGhvcj1cIuWImOaFiOaso1wiIGJvb2tfc3JjPVwiL3N0YXRpYy9pbWFnZXMvY29tbW9uL2Jvb2sxLmpwZWdcIiBib29rX3RpdGxlPVwi5LiJ5L2T77ya5q2756We5rC455SfXCI+PC9Cb29rSXRlbT5cbiAgICAgIDwvdmlldz5cbiAgICAgIDx2aWV3IGNsYXNzPVwibGlzdC1pdGVtXCI+XG4gICAgICAgIDxCb29rSXRlbSBib29rX2F1dGhvcj1cIuWImOaFiOaso1wiIGJvb2tfc3JjPVwiL3N0YXRpYy9pbWFnZXMvY29tbW9uL2Jvb2sxLmpwZWdcIiBib29rX3RpdGxlPVwi5LiJ5L2T77ya5q2756We5rC455SfXCI+PC9Cb29rSXRlbT5cbiAgICAgIDwvdmlldz5cbiAgICA8L3ZpZXc+XG5cbiAgPC92aWV3PlxuPC90ZW1wbGF0ZT5cblxuPHNjcmlwdD5cbmltcG9ydCBCb29rSXRlbSBmcm9tIFwiLi9Cb29rSXRlbVwiO1xuZXhwb3J0IGRlZmF1bHQge1xuICBuYW1lOiBcIkJvb2tMaXN0XCIsXG4gIHByb3BzOntcbiAgICBsZWZ0X3RleHQ6IHtcbiAgICAgIHR5cGU6IFN0cmluZyxcbiAgICAgIGRlZmF1bHQ6IFwi5paw5Y+R5biDXCJcbiAgICB9XG4gIH0sXG4gIGNvbXBvbmVudHM6e1xuICAgIEJvb2tJdGVtXG4gIH1cbn1cbjwvc2NyaXB0PlxuXG48c3R5bGUgbGFuZz1cImxlc3NcIiBzY29wZWQ+XG4gIC5jb250YWluZXJ7XG4gICAgcGFkZGluZzogMCAyNHB4O1xuICAgIC50aXRsZXtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuXG4gICAgICAubGVmdHtcbiAgICAgICAgZm9udC1zaXplOiAxOHB4O1xuICAgICAgICBjb2xvcjogI2ZmZjtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgICAgIH1cblxuICAgICAgLnJpZ2h0e1xuICAgICAgICBmb250LXNpemU6IDEzcHg7XG4gICAgICAgIGNvbG9yOiAjYTJhOGJhO1xuICAgICAgfVxuICAgIH1cblxuICAgIC5saXN0e1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICBmbGV4LXdyYXA6d3JhcDtcblxuICAgICAgLmxpc3QtaXRlbXtcbiAgICAgICAgbWFyZ2luOiAxMHB4O1xuICAgICAgfVxuICAgIH1cbiAgfVxuPC9zdHlsZT4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///67\n");
 
 /***/ })
 ],[[0,"app-config"]]]);

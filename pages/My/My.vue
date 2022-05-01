@@ -51,8 +51,7 @@
         </li>
         <li>
           <text class="menu_name">账户余额</text>
-
-          <text class="amount">1375.00<text class="icon-right" style="color: #a2a8ba"></text>  </text>
+          <text class="amount">1375.00<text class="icon-right" style="color: #a2a8ba"></text> </text>
         </li>
         <li>
           <text class="menu_name">我的评论</text>

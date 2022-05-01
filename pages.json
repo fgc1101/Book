@@ -1,12 +1,20 @@
 {
   "pages": [
     {
+      "path": "pages/Setting/Setting",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
       "path": "pages/My/My",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
     },
+
     {
       "path": "pages/Home/Home",
       "style": {
@@ -46,7 +54,7 @@
     "backgroundColor": "#2e272e",
     "navigationStyle": "custom",
     "app-plus": {
-      "bounce":"none" ,
+      "bounce": "none",
       "scrollIndicator": "none",
       "safearea": {
         "background": "#2e272e",

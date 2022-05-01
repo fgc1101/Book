@@ -1,11 +1,11 @@
 <template>
 	<view>
-    <BookList></BookList>
+    <HotSearch></HotSearch>
 	</view>
 </template>
 
 <script>
-import BookList from "@/components/common/BookList";
+import HotSearch from "@/components/common/HotSearch";
 	export default {
 		data() {
 			return {
@@ -16,7 +16,7 @@ import BookList from "@/components/common/BookList";
 			
 		},
     components:{
-      BookList
+      HotSearch
     }
 	}
 </script>

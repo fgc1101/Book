@@ -18,13 +18,18 @@
     <!-- 作者排行 -->
     <CateList left_text="作者排行 " :cate_list="author_list"></CateList>
 
+    <!-- 新发布列表 -->
     <BookList></BookList>
+
+    <!-- 热门搜索 -->
+    <HotSearch></HotSearch>
   </view>
 </template>
 
 <script>
 import CateList from "@/components/common/CateList";
 import BookList from "@/components/common/BookList";
+import HotSearch from "@/components/common/HotSearch";
 
 const dom = weex.requireModule("dom");
 dom.addRule("fontFace", {
@@ -73,7 +78,7 @@ export default {
     }
   },
   components: {
-    CateList, BookList
+    CateList, BookList, HotSearch
   }
 }
 </script>

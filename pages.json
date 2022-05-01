@@ -7,6 +7,16 @@
         "enablePullDownRefresh": false
       }
     },
+	  {
+	        "path" : "pages/Test/Test",
+	        "style" :                                                                                    
+	        {
+	            "navigationBarTitleText": "",
+	            "enablePullDownRefresh": false
+	        }
+	        
+	    },
+
     {
       "path": "pages/My/My",
       "style": {
@@ -41,7 +51,8 @@
         "navigationBarTitleText": "uni-app"
       }
     }
-  ],
+      
+    ],
   "globalStyle": {
     "rpxCalcMaxDeviceWidth": 1024,
     "rpxCalcBaseDeviceWidth": 375,

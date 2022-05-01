@@ -17,6 +17,7 @@
 	/*每个页面公共css */
 	@import '@/uni_modules/uni-scss/index.scss';
   @import "@/common/style/global.less";
+
 	/* #ifndef APP-NVUE */
 	@import '@/static/customicons.css';
   @import "@/static/font/iconfont.css";

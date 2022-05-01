@@ -1,0 +1,58 @@
+{
+  "id": "3370697",
+  "name": "Book",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1250137",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "7551367",
+      "name": "我的",
+      "font_class": "wode1",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "2370950",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "4226245",
+      "name": "地球",
+      "font_class": "diqiu1",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "5317081",
+      "name": "book",
+      "font_class": "book",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "7316587",
+      "name": "地球",
+      "font_class": "diqiu2",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "588421",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    }
+  ]
+}

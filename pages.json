@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "path": "pages/My/My",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Home/Home",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Search/Search",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Store/Store",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app"
+      }
+    }
+  ],
+  "globalStyle": {
+    "rpxCalcMaxDeviceWidth": 1024,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750,
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "导航",
+    "navigationBarBackgroundColor": "#2e272e",
+    "backgroundColorTop": "2e272e",
+    "backgroundColor": "#2e272e",
+    "navigationStyle": "custom",
+    "app-plus": {
+      "bounce":"none" ,
+      "scrollIndicator": "none",
+      "safearea": {
+        "background": "#2e272e",
+        "bottom": {
+          "offset": "none"
+        }
+      }
+    }
+  },
+  "tabBar": {
+    "color": "#d8d8d8",
+    "selectedColor": "#fb6894",
+    "borderStyle": "black",
+    "backgroundColor": "#2e272e",
+    "iconfontSrc": "static/font/iconfont.ttf",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home_selected.png"
+      },
+      {
+        "pagePath": "pages/Search/Search",
+        "iconPath": "static/images/tabbar/earth.png",
+        "selectedIconPath": "static/images/tabbar/earth_selected.png"
+      },
+      {
+        "pagePath": "pages/Store/Store",
+        "iconPath": "static/images/tabbar/book.png",
+        "selectedIconPath": "static/images/tabbar/book_selected.png"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my_selected.png"
+      }
+    ]
+  }
+}

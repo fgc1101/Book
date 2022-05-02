@@ -1,14 +1,23 @@
 {
   "pages": [
     {
-      "path": "pages/Store/Store",
+      "path" : "pages/Rank/Rank",
+      "style" :
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/Home/Home",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
     },
     {
-      "path": "pages/Home/Home",
+      "path": "pages/Store/Store",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false

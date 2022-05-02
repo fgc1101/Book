@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'iconfont';  /* Project id 3370697 */
-  src: url('https://at.alicdn.com/t/font_3370697_0pvmrrxpckp.woff2?t=1651377278094') format('woff2'),
-  url('https://at.alicdn.com/t/font_3370697_0pvmrrxpckp.woff?t=1651377278094') format('woff'),
-  url('https://at.alicdn.com/t/font_3370697_0pvmrrxpckp.ttf?t=1651377278094') format('truetype');
+  src: url('https://at.alicdn.com/t/font_3370697_ly1f273i86.woff2?t=1651498910086') format('woff2'),
+  url('https://at.alicdn.com/t/font_3370697_ly1f273i86.woff?t=1651498910086') format('woff'),
+  url('https://at.alicdn.com/t/font_3370697_ly1f273i86.ttf?t=1651498910086') format('truetype');
 }
 
 text[class*="icon-"],
@@ -20,6 +20,10 @@ button[class*="icon-"] {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-huangguan:before {
+  content: "\e602";
 }
 
 .icon-sangedian1:before {

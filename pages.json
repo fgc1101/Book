@@ -1,6 +1,14 @@
 {
   "pages": [
     {
+      "path" : "pages/CList/CList",
+      "style" : {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
       "path": "pages/Home/Home",
       "style": {
         "navigationBarTitleText": "",
@@ -50,7 +58,6 @@
         "navigationBarTitleText": "uni-app"
       }
     }
-      
     ],
   "globalStyle": {
     "rpxCalcMaxDeviceWidth": 1024,

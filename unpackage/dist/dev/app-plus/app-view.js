@@ -288,6 +288,40 @@ var render = function() {
           )
         ],
         1
+      ),
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(14, "sc"), attrs: { _i: 14 } },
+        [
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(15, "sc"), attrs: { _i: 15 } },
+            [
+              _c("v-uni-image", {
+                attrs: { src: "/static/images/common/avatar.jpeg", _i: 16 }
+              })
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(17, "sc"), attrs: { _i: 17 } },
+            [
+              _c(
+                "v-uni-text",
+                { staticClass: _vm._$g(18, "sc"), attrs: { _i: 18 } },
+                [_vm._v("程晓东")]
+              ),
+              _c(
+                "v-uni-text",
+                { staticClass: _vm._$g(19, "sc"), attrs: { _i: 19 } },
+                [_vm._v("推荐")]
+              )
+            ],
+            1
+          )
+        ],
+        1
       )
     ],
     1
@@ -4707,7 +4741,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".container[data-v-589f9dd4] {\n  padding: 0 24px;\n}\n.container .detail[data-v-589f9dd4] {\n  margin-top: 46px;\n  text-align: center;\n}\n.container .detail .info[data-v-589f9dd4] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-bottom: 37px;\n}\n.container .detail .info uni-image[data-v-589f9dd4] {\n  width: 195px;\n  height: 290px;\n  border-radius: 18px;\n}\n.container .detail .info .title[data-v-589f9dd4] {\n  font-size: 22px;\n  color: #fff;\n  margin-top: 24px;\n}\n.container .detail .info .author[data-v-589f9dd4] {\n  font-size: 18px;\n  color: #656a7b;\n  margin-top: 17px;\n}\n.container .read-list[data-v-589f9dd4] {\n  border-top: 2px solid #656a7b;\n  padding: 0 24px;\n}\n.container .read-list .user-list[data-v-589f9dd4] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.container .read-list .user-list uni-image[data-v-589f9dd4] {\n  width: 34px;\n  height: 34px;\n  border-radius: 50%;\n  margin: 24px 2px 18px;\n}\n.container .read-list uni-text[data-v-589f9dd4] {\n  font-size: 12px;\n  color: #a2a8ba;\n}\n", ""]);
+exports.push([module.i, ".container[data-v-589f9dd4] {\n  padding: 0 24px;\n  position: relative;\n}\n.container .detail[data-v-589f9dd4] {\n  margin-top: 46px;\n  text-align: center;\n}\n.container .detail .info[data-v-589f9dd4] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-bottom: 37px;\n}\n.container .detail .info uni-image[data-v-589f9dd4] {\n  width: 195px;\n  height: 290px;\n  border-radius: 18px;\n}\n.container .detail .info .title[data-v-589f9dd4] {\n  font-size: 22px;\n  color: #fff;\n  margin-top: 24px;\n}\n.container .detail .info .author[data-v-589f9dd4] {\n  font-size: 18px;\n  color: #656a7b;\n  margin-top: 17px;\n}\n.container .read-list[data-v-589f9dd4] {\n  border-top: 2px solid #656a7b;\n  padding: 0 24px;\n}\n.container .read-list .user-list[data-v-589f9dd4] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.container .read-list .user-list uni-image[data-v-589f9dd4] {\n  width: 34px;\n  height: 34px;\n  border-radius: 50%;\n  margin: 24px 2px 18px;\n}\n.container .read-list uni-text[data-v-589f9dd4] {\n  font-size: 12px;\n  color: #a2a8ba;\n}\n.container .tuijan[data-v-589f9dd4] {\n  width: 119px;\n  height: 42px;\n  background-color: #15191d;\n  position: absolute;\n  right: 0;\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  border-top-left-radius: 17px;\n  border-bottom-left-radius: 17px;\n}\n.container .tuijan .avatar[data-v-589f9dd4] {\n  width: 34px;\n  height: 34px;\n}\n.container .tuijan .avatar uni-image[data-v-589f9dd4] {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n}\n.container .tuijan .user[data-v-589f9dd4] {\n  margin-left: 5px;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  flex-wrap: nowrap;\n}\n.container .tuijan .user .username[data-v-589f9dd4] {\n  font-size: 12px;\n  color: #fff;\n}\n.container .tuijan .user .tj[data-v-589f9dd4] {\n  font-size: 11px;\n  color: #707483;\n}\n", ""]);
 // Exports
 module.exports = exports;
 

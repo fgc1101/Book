@@ -19,6 +19,16 @@
         <text>457人已阅读</text>
       </view>
     </view>
+
+    <view class="tuijan">
+      <view class="avatar">
+        <image src="/static/images/common/avatar.jpeg"></image>
+      </view>
+      <view class="user">
+        <text class="username">程晓东</text>
+        <text class="tj">推荐</text>
+      </view>
+    </view>
 	</view>
 </template>
 
@@ -50,6 +60,7 @@ import PageHeader from "@/components/common/PageHeader";
 <style lang="less" scoped>
   .container{
     padding: 0 24px;
+    position: relative;
 
     .detail{
       margin-top: 46px;
@@ -104,5 +115,49 @@ import PageHeader from "@/components/common/PageHeader";
         color:#a2a8ba;
       }
     }
+    
+    .tuijan{
+      width: 119px;
+      height: 42px;
+      background-color: #15191d;
+      position: absolute;
+      right: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-top-left-radius: 17px;
+      border-bottom-left-radius: 17px;
+
+      .avatar{
+        width: 34px;
+        height: 34px;
+
+        image{
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+
+      .user{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+
+        .username{
+          font-size: 12px;
+          color: #fff;
+        }
+
+        .tj{
+          font-size: 11px;
+          color:#707483;
+        }
+      }
+
+    }
+    
   }
 </style>

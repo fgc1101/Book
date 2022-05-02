@@ -23,6 +23,9 @@
 
     <!-- 热门搜索 -->
     <HotSearch></HotSearch>
+
+    <!-- 热销版 -->
+    <HotSale></HotSale>
   </view>
 </template>
 
@@ -30,6 +33,7 @@
 import CateList from "@/components/common/CateList";
 import BookList from "@/components/common/BookList";
 import HotSearch from "@/components/common/HotSearch";
+import HotSale from "@/components/common/HotSale";
 
 const dom = weex.requireModule("dom");
 dom.addRule("fontFace", {
@@ -78,7 +82,7 @@ export default {
     }
   },
   components: {
-    CateList, BookList, HotSearch
+    CateList, BookList, HotSearch, HotSale
   }
 }
 </script>
@@ -113,7 +117,7 @@ export default {
 
 .search_icon {
   position: absolute;
-  top: 8px;
+  top: 0;
   left: 36px;
   color: #69707f;
 }

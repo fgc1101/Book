@@ -1,6 +1,15 @@
 {
   "pages": [
     {
+      "path" : "pages/SearchIBook/SearchIBook",
+      "style" :
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
       "path": "pages/Search/Search",
       "style": {
         "navigationBarTitleText": "",

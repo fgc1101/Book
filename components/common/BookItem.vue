@@ -31,6 +31,7 @@ export default {
       font-size: 14px;
       color: #fff;
       font-weight: 600;
+      margin-top: 13px;
     }
 
     .author{

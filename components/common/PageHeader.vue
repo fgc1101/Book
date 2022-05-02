@@ -9,7 +9,7 @@
     </view>
 
     <view class="content right">
-      <text class="icon" v-if=" this.right.length === 1 " :class="[self_right.icon ? self_right.icon : '']">{{ self_right.right_text ? self_right.right_text : '' }}</text>
+      <text class="icon" v-if=" this.self_right.length === 1 " :class="[self_right.icon ? self_right.icon : '']">{{ self_right.right_text ? self_right.right_text : '' }}</text>
       <view v-else>
         <text class="icon" v-for="item in self_right" :class="[item.icon ? item.icon : '']">{{ item.right_text ? item.right_text: ''}}</text>
       </view>
@@ -39,7 +39,12 @@ export default {
   },
   created(){
 
-    this.right.length > 1 ? this.self_right = this.right : this.self_right = this.right[0]
+    if(this.right !== undefined){
+      this.right.length > 1 ? this.self_right = this.right : this.self_right = this.right[0]
+    }else{
+      this.self_right = []
+    }
+
     console.log(this.self_right)
 
   }

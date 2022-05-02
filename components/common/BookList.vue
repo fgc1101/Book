@@ -1,11 +1,9 @@
 <template>
-  <view class="container">
-
+  <view>
     <view class="title">
       <text class="left">{{left_text}}</text>
       <text class="right">查看全部<text class="icon-right"></text></text>
     </view>
-
     <view class="list">
       <view class="list-item">
         <BookItem book_author="刘慈欣" book_src="/static/images/common/book1.jpeg" book_title="三体：死神永生"></BookItem>
@@ -16,18 +14,7 @@
       <view class="list-item">
         <BookItem book_author="刘慈欣" book_src="/static/images/common/book1.jpeg" book_title="三体：死神永生"></BookItem>
       </view>
-      <view class="list-item">
-        <BookItem book_author="刘慈欣" book_src="/static/images/common/book1.jpeg" book_title="三体：死神永生"></BookItem>
-      </view>
-
-      <view class="list-item">
-        <BookItem book_author="刘慈欣" book_src="/static/images/common/book1.jpeg" book_title="三体：死神永生"></BookItem>
-      </view>
-      <view class="list-item">
-        <BookItem book_author="刘慈欣" book_src="/static/images/common/book1.jpeg" book_title="三体：死神永生"></BookItem>
-      </view>
     </view>
-
   </view>
 </template>
 
@@ -48,9 +35,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .container{
-    padding: 0 24px;
-    
     .title{
       display: flex;
       justify-content: space-between;
@@ -76,12 +60,9 @@ export default {
       align-items: center;
       flex-wrap:wrap;
       padding-bottom: 44px;
-      border-bottom: 1px solid #69707f;
-      margin-bottom: 34px;
 
       .list-item{
-        margin-top: 10px;
+        margin-top: 34px;
       }
     }
-  }
 </style>

@@ -19,7 +19,8 @@
     <CateList left_text="作者排行 " :cate_list="author_list"></CateList>
 
     <!-- 新发布列表 -->
-    <BookList></BookList>
+
+    <BookList class="book_list"></BookList>
 
     <!-- 热门搜索 -->
     <HotSearch></HotSearch>
@@ -130,6 +131,10 @@ export default {
   font-size: 16px;
   font-family: "PingFang SC";
   color: #fff;
+}
+
+.book_list{
+  padding: 0 24px;
 }
 
 .cate_list {

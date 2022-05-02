@@ -1,6 +1,13 @@
 {
   "pages": [
     {
+      "path": "pages/Home/Home",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
       "path" : "pages/SearchIBook/SearchIBook",
       "style" :
       {
@@ -32,13 +39,7 @@
         "enablePullDownRefresh": false
       }
     },
-    {
-      "path": "pages/Home/Home",
-      "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
-      }
-    },
+
     {
       "path": "pages/My/My",
       "style": {

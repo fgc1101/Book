@@ -1,21 +1,6 @@
 {
   "pages": [
     {
-      "path" : "pages/CList/CList",
-      "style" : {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
-      }
-
-    },
-    {
-      "path": "pages/Home/Home",
-      "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
       "path" : "pages/Test/Test",
       "style" :
       {
@@ -23,6 +8,20 @@
         "enablePullDownRefresh": false
       }
 
+    },
+    {
+      "path" : "pages/CList/CList",
+      "style" : {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Home/Home",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
     },
     {
       "path": "pages/My/My",

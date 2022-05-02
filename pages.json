@@ -1,6 +1,13 @@
 {
   "pages": [
     {
+      "path": "pages/Store/Store",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
       "path": "pages/Home/Home",
       "style": {
         "navigationBarTitleText": "",
@@ -54,13 +61,7 @@
         "enablePullDownRefresh": false
       }
     },
-    {
-      "path": "pages/Store/Store",
-      "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
-      }
-    },
+
     {
       "path": "pages/index/index",
       "style": {

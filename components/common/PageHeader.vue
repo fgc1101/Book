@@ -9,7 +9,7 @@
     </view>
 
     <view class="content right">
-      <text class="icon" v-if=" this.self_right.length === 1 " :class="[self_right.icon ? self_right.icon : '']">{{ self_right.right_text ? self_right.right_text : '' }}</text>
+      <text class="icon" v-if=" this.right_nums === 1 " :class="[self_right.icon ? self_right.icon : '']">{{ self_right.right_text ? self_right.right_text : '' }}</text>
       <view v-else>
         <text class="icon" v-for="item in self_right" :class="[item.icon ? item.icon : '']">{{ item.right_text ? item.right_text: ''}}</text>
       </view>
@@ -22,7 +22,8 @@ export default {
   name: "PageHeader",
   data(){
     return {
-      self_right: []
+      self_right: [],
+      right_nums: 0
     }
   },
   props:{
@@ -38,7 +39,9 @@ export default {
     }
   },
   created(){
-
+    if(this.right.length >= 1){
+      this.right_nums = this.right.length
+    }
     if(this.right !== undefined){
       this.right.length > 1 ? this.self_right = this.right : this.self_right = this.right[0]
     }else{

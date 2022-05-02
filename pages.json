@@ -1,6 +1,13 @@
 {
   "pages": [
     {
+      "path": "pages/Search/Search",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
       "path" : "pages/Test/Test",
       "style" :
       {
@@ -32,13 +39,6 @@
     },
     {
       "path": "pages/Setting/Setting",
-      "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/Search/Search",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false

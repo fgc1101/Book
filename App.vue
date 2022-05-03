@@ -21,6 +21,7 @@
 	/* #ifndef APP-NVUE */
 	@import '@/static/customicons.css';
   @import "@/static/font/iconfont.css";
+  @import "@/static/font/c-font.css";
 	// 设置整个项目的背景色
 	page {
 		background-color: #2e272e;

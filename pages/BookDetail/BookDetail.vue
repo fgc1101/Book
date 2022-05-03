@@ -29,7 +29,7 @@
           <text class="icon icon-shoucang"></text>
           <text class="c-text">收藏</text>
         </view>
-        <view class="option-item share">
+        <view class="option-item share" @click="share">
           <text class="icon icon-share-copy"></text>
           <text class="c-text">分享</text>
         </view>
@@ -118,14 +118,23 @@
         <text>试看</text>
       </view>
       <view class="button goumai">
-        <text>购买</text>
+        <text @click="open">购买</text>
       </view>
     </view>
+
+    <uni-popup ref="popup">
+      <addBookshelf></addBookshelf>
+    </uni-popup>
+    <uni-popup ref="share">
+      <share></share>
+    </uni-popup>
   </view>
 </template>
 
 <script>
 import PageHeader from "@/components/common/PageHeader";
+import addBookshelf from "@/components/popup/addBookshelf";
+import share from "@/components/popup/Share";
 	export default {
 		data() {
 			return {
@@ -135,7 +144,15 @@ import PageHeader from "@/components/common/PageHeader";
 			};
 		},
     components:{
-      PageHeader
+      PageHeader, addBookshelf, share
+    },
+    methods:{
+      open(){
+        this.$refs.popup.open('center')
+      },
+      share(){
+        this.$refs.share.open('bottom')
+      }
     }
 	}
 </script>
@@ -360,18 +377,6 @@ import PageHeader from "@/components/common/PageHeader";
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  .button{
-    height: 48px;
-    border-radius: 24px;
-    line-height: 48px;
-    text-align: center;
-    text{
-      font-size: 14px;
-      color: #FFFFFF;
-      font-weight: 600;
-    }
-  }
 
   .shikan{
     width: 108px;

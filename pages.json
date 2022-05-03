@@ -1,6 +1,15 @@
 {
   "pages": [
     {
+      "path" : "pages/BookDetail/BookDetail",
+      "style" :
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
       "path" : "pages/Rank/Rank",
       "style" :
       {

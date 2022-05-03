@@ -39,9 +39,6 @@ export default {
     }
   },
   created(){
-    if(this.right.length >= 1){
-      this.right_nums = this.right.length
-    }
     if(this.right !== undefined){
       this.right.length > 1 ? this.self_right = this.right : this.self_right = this.right[0]
     }else{

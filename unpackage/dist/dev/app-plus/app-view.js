@@ -439,134 +439,38 @@ var render = function() {
         "v-uni-view",
         { staticClass: _vm._$g(5, "sc"), attrs: { _i: 5 } },
         [
+          _vm._l(_vm._$g(6, "f"), function(item, index, $20, $30) {
+            return _c(
+              "v-uni-view",
+              {
+                key: item,
+                staticClass: _vm._$g("6-" + $30, "sc"),
+                attrs: { _i: "6-" + $30 }
+              },
+              [
+                _c("v-uni-image", {
+                  attrs: { src: _vm._$g("7-" + $30, "a-src"), _i: "7-" + $30 }
+                }),
+                _c("v-uni-text", { attrs: { _i: "8-" + $30 } }, [
+                  _vm._v(_vm._$g("8-" + $30, "t0-0"))
+                ])
+              ],
+              1
+            )
+          }),
           _c(
-            "v-uni-scroll-view",
-            {
-              staticClass: _vm._$g(6, "sc"),
-              attrs: { "scroll-x": "true", "show-scrollbar": "false", _i: 6 }
-            },
+            "v-uni-view",
+            { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
             [
-              _vm._l(_vm._$g(7, "f"), function(item, index, $20, $30) {
-                return _c(
-                  "v-uni-view",
-                  {
-                    key: item,
-                    staticClass: _vm._$g("7-" + $30, "sc"),
-                    attrs: { _i: "7-" + $30 }
-                  },
-                  [
-                    _c(
-                      "v-uni-view",
-                      {
-                        staticClass: _vm._$g("8-" + $30, "sc"),
-                        attrs: { _i: "8-" + $30 }
-                      },
-                      [
-                        _c("v-uni-image", {
-                          attrs: {
-                            src: _vm._$g("9-" + $30, "a-src"),
-                            _i: "9-" + $30
-                          }
-                        }),
-                        _c("v-uni-text", { attrs: { _i: "10-" + $30 } }, [
-                          _vm._v(_vm._$g("10-" + $30, "t0-0"))
-                        ])
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
+              _c("v-uni-image", {
+                attrs: { src: "/static/images/common/avatar.png", _i: 10 }
               }),
-              _c(
-                "v-uni-view",
-                { staticClass: _vm._$g(11, "sc"), attrs: { _i: 11 } },
-                [
-                  _c(
-                    "v-uni-view",
-                    { staticClass: _vm._$g(12, "sc"), attrs: { _i: 12 } },
-                    [
-                      _c("v-uni-image", {
-                        attrs: {
-                          src: "/static/images/common/avatar.png",
-                          _i: 13
-                        }
-                      }),
-                      _c("v-uni-text", { attrs: { _i: 14 } }, [_vm._v("科技")])
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c(
-                "v-uni-view",
-                { staticClass: _vm._$g(15, "sc"), attrs: { _i: 15 } },
-                [
-                  _c(
-                    "v-uni-view",
-                    { staticClass: _vm._$g(16, "sc"), attrs: { _i: 16 } },
-                    [
-                      _c("v-uni-image", {
-                        attrs: {
-                          src: "/static/images/common/avatar.png",
-                          _i: 17
-                        }
-                      }),
-                      _c("v-uni-text", { attrs: { _i: 18 } }, [_vm._v("科技")])
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c(
-                "v-uni-view",
-                { staticClass: _vm._$g(19, "sc"), attrs: { _i: 19 } },
-                [
-                  _c(
-                    "v-uni-view",
-                    { staticClass: _vm._$g(20, "sc"), attrs: { _i: 20 } },
-                    [
-                      _c("v-uni-image", {
-                        attrs: {
-                          src: "/static/images/common/avatar.png",
-                          _i: 21
-                        }
-                      }),
-                      _c("v-uni-text", { attrs: { _i: 22 } }, [_vm._v("科技")])
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c(
-                "v-uni-view",
-                { staticClass: _vm._$g(23, "sc"), attrs: { _i: 23 } },
-                [
-                  _c(
-                    "v-uni-view",
-                    { staticClass: _vm._$g(24, "sc"), attrs: { _i: 24 } },
-                    [
-                      _c("v-uni-image", {
-                        attrs: {
-                          src: "/static/images/common/avatar.png",
-                          _i: 25
-                        }
-                      }),
-                      _c("v-uni-text", { attrs: { _i: 26 } }, [_vm._v("科技")])
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
+              _c("v-uni-text", { attrs: { _i: 11 } }, [_vm._v("科技")])
             ],
-            2
+            1
           )
         ],
-        1
+        2
       )
     ],
     1
@@ -660,7 +564,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".container[data-v-e4417134] {\n  padding: 0 24px;\n}\n.container .title[data-v-e4417134] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.container .title .left[data-v-e4417134] {\n  font-size: 18px;\n  color: #fff;\n  font-weight: 600;\n}\n.container .title .right[data-v-e4417134] {\n  font-size: 13px;\n  color: #a2a8ba;\n}\n.container .c-list[data-v-e4417134] {\n  margin-top: 24px;\n  padding-bottom: 10px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #5d637c;\n}\n.container .c-list .scroll-view[data-v-e4417134] {\n  width: 100%;\n  white-space: nowrap;\n}\n.container .c-list .scroll-view .scroll-view-item[data-v-e4417134] {\n  display: inline-block;\n  width: 80px;\n  height: 120px;\n  margin-right: 20px;\n}\n.container .c-list .scroll-view .scroll-view-item .item[data-v-e4417134] {\n  display: flex;\n  flex-direction: column;\n}\n.container .c-list .scroll-view .scroll-view-item .item uni-image[data-v-e4417134] {\n  width: 80px;\n  height: 80px;\n  border-radius: 20px;\n}\n.container .c-list .scroll-view .scroll-view-item .item uni-text[data-v-e4417134] {\n  margin-top: 10px;\n  font-size: 14px;\n  color: #fff;\n  font-weight: 600;\n}\n", ""]);
+exports.push([module.i, ".container[data-v-e4417134] {\n  padding: 0 24px;\n}\n.container .title[data-v-e4417134] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.container .title .left[data-v-e4417134] {\n  font-size: 18px;\n  color: #fff;\n  font-weight: 600;\n}\n.container .title .right[data-v-e4417134] {\n  font-size: 13px;\n  color: #a2a8ba;\n}\n.container .c-list[data-v-e4417134] {\n  margin-top: 24px;\n  padding-bottom: 10px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #5d637c;\n}\n.container .c-list .scroll-view[data-v-e4417134] {\n  width: 100%;\n  white-space: nowrap;\n}\n.container .c-list .scroll-view .scroll-view-item[data-v-e4417134] {\n  display: inline-block;\n  width: 80px;\n  height: 120px;\n  margin-right: 20px;\n}\n.container .c-list .scroll-view .scroll-view-item .item[data-v-e4417134] {\n  display: flex;\n  flex-direction: column;\n}\n.container .c-list .scroll-view .scroll-view-item .item uni-image[data-v-e4417134] {\n  width: 80px;\n  height: 80px;\n  border-radius: 20px;\n}\n.container .c-list .scroll-view .scroll-view-item .item uni-text[data-v-e4417134] {\n  margin-top: 10px;\n  font-size: 14px;\n  color: #fff;\n  font-weight: 600;\n}\n.container .tab-list[data-v-e4417134]::-webkit-scrollbar {\n  display: none;\n}\n.container .tab-list[data-v-e4417134] {\n  margin-top: 24px;\n  margin-bottom: 29px;\n  padding-bottom: 20px;\n  border-bottom: 1px solid #5d637c;\n  flex-grow: 1;\n  display: flex;\n  flex-wrap: nowrap;\n  overflow: auto;\n}\n.container .tab-list .item[data-v-e4417134] {\n  display: flex;\n  flex-direction: column;\n  margin-right: 14px;\n}\n.container .tab-list .item uni-image[data-v-e4417134] {\n  width: 80px;\n  height: 80px;\n  border-radius: 20px;\n}\n.container .tab-list .item uni-text[data-v-e4417134] {\n  margin-top: 10px;\n  font-size: 14px;\n  color: #fff;\n  font-weight: 600;\n}\n", ""]);
 // Exports
 module.exports = exports;
 

@@ -5,39 +5,15 @@
       <text class="right">查看全部<text class="icon-right"></text></text>
     </view>
 
-    <view class="c-list uni-padding-wrap uni-common-mt">
-      <scroll-view  class="scroll-view" scroll-x="true" show-scrollbar="false">
-        <view v-for="(item, index) in cate_list" class="scroll-view-item">
-            <view class="item">
-              <image :src="item.src_url"></image>
-              <text>{{item.title}}</text>
-            </view>
-        </view>
-        <view class="scroll-view-item">
-          <view class="item">
-            <image src="/static/images/common/avatar.png"></image>
-            <text>科技</text>
-          </view>
-        </view>
-        <view class="scroll-view-item">
-          <view class="item">
-            <image src="/static/images/common/avatar.png"></image>
-            <text>科技</text>
-          </view>
-        </view>
-        <view class="scroll-view-item">
-          <view class="item">
-            <image src="/static/images/common/avatar.png"></image>
-            <text>科技</text>
-          </view>
-        </view>
-        <view class="scroll-view-item">
-          <view class="item">
-            <image src="/static/images/common/avatar.png"></image>
-            <text>科技</text>
-          </view>
-        </view>
-      </scroll-view>
+    <view class="tab-list">
+      <view class="item" v-for="(item, index) in cate_list">
+        <image :src="item.src_url"></image>
+        <text>{{item.title}}</text>
+      </view>
+      <view class="item">
+        <image src="/static/images/common/avatar.png"></image>
+        <text>科技</text>
+      </view>
     </view>
   </view>
 </template>
@@ -111,6 +87,41 @@ export default {
               font-weight: 600;
             }
           }
+        }
+      }
+    }
+
+    .tab-list::-webkit-scrollbar{
+      display: none;
+    }
+
+    .tab-list{
+      margin-top: 24px;
+      margin-bottom: 29px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #5d637c;
+      flex-grow: 1;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: auto;
+
+
+      .item{
+        display: flex;
+        flex-direction: column;
+        margin-right: 14px;
+
+        image{
+          width: 80px;
+          height: 80px;
+          border-radius: 20px;
+        }
+
+        text{
+          margin-top: 10px;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 600;
         }
       }
     }

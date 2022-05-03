@@ -48,21 +48,21 @@ export default {
   data() {
     return {
       cate_list: [
-          {
-            "src_url": "/static/images/common/avatar.png",
-            "title": "科技"
-          }, {
-            "src_url": "/static/images/common/avatar.png",
-            "title": "生活"
-          }, {
-            "src_url": "/static/images/common/avatar.png",
-            "title": "露营"
-          }, {
-            "src_url": "/static/images/common/avatar.png",
-            "title": "职场"
-          }
+        {
+          "src_url": "/static/images/common/avatar.png",
+          "title": "科技"
+        }, {
+          "src_url": "/static/images/common/avatar.png",
+          "title": "生活"
+        }, {
+          "src_url": "/static/images/common/avatar.png",
+          "title": "露营"
+        }, {
+          "src_url": "/static/images/common/avatar.png",
+          "title": "职场"
+        }
       ],
-      author_list:[
+      author_list: [
         {
           "src_url": "/static/images/common/avatar.png",
           "title": "刘慈欣"
@@ -133,7 +133,7 @@ export default {
   color: #fff;
 }
 
-.book_list{
+.book_list {
   padding: 0 24px;
 }
 

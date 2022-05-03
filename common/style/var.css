@@ -1,0 +1,28 @@
+:root {
+    /*icon颜色*/
+    --icon-color:#969baf;
+    --icon-selected-color: #fff;
+
+    /*热门搜索*/
+    --hot-search-pink:#f15f8d;
+    --hot-search-green:#6bb78b;
+    --hot-search-red:#e96769;
+    --hot-search-purple:#9a70eb;
+    --hot-search-yellow:#e1da61;
+
+    --book-title-color: #fff;
+    --book-author-color: #5d637c;
+    --book-content-desc-color:#868dab;
+
+    --see-all-color: #a2a8ba;
+
+    /*边框线的颜色*/
+    --border-color: #393d45;
+
+    /*项目背景色*/
+    --app-background-color: #252c34;
+
+    /*底部导航栏背景色*/
+    --tabbar-background-color:#303842;
+}
+
